@@ -18,4 +18,4 @@ ddon launcher designed to communicate with account api of [emulation server.](ht
 
 *   Use qdeploy for your platform to find all dependencies
 
-*   Copy exe and all dependencies in to ddon base folder
+*   Copy exe and all dependencies in to ddon base folder.
