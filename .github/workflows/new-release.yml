@@ -21,9 +21,10 @@ jobs:
         run: |
           choco uninstall mingw --force
           choco uninstall strawberryperl --force
-      - uses: e-t-l/setup-mingw@patch-1
-        with:
-          platform: x64
+          choco install mingw --version 11.2.0.07112021 --allow-downgrade
+#      - uses: e-t-l/setup-mingw@patch-1
+#        with:
+#          platform: x64
           
      # TODO: automate this somehow?
       - name: Set paths to newly installed static Qt libraries
