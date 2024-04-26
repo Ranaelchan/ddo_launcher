@@ -21,7 +21,7 @@ jobs:
         run: |
           choco uninstall mingw --force
           choco uninstall strawberryperl --force
-      - uses: egor-tensin/setup-mingw@v2
+      - uses: e-t-l/setup-mingw@patch-1
         with:
           platform: x64
           
